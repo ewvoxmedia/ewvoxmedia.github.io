@@ -48,18 +48,18 @@ nav{
 }
 
 header{
-    background-image: url(/assets/asset/bg2.png);
+    background-image: url(/asset/bg2.png);
     background-size: contain;
 }
 body {
-    background-image: url(/assets/asset/bg4.jpg);
+    background-image: url(/asset/bg4.jpg);
     background-size: cover;
     border-color: purple;
     border-style: inset;
 }
 
 div{
-    background-image: url(/assets/asset/bg4.jpg);
+    background-image: url(/asset/bg4.jpg);
     font-family: monospace;
     font-size: 17px;
 }
@@ -98,7 +98,7 @@ tr{
 }
 
 td{
-    background-image: url(/assets/asset/bg4.jpg);
+    background-image: url(/asset/bg4.jpg);
     font-family: monospace;
     border-color: purple;
     border-width: 3px;
