@@ -4,7 +4,7 @@ div.noticia img {
   }
   
 aside.info {
-    background-image: url(/assets/asset/bg4.jpg);
+    background-image: url(/asset/bg4.jpg);
     border-color: rebeccapurple;
     border-style: solid;
   }
@@ -44,7 +44,7 @@ nav {
     background-color: plum;
 }
 header{
-    background-image: url(/assets/asset/bg2.png);
+    background-image: url(/asset/bg2.png);
     background-size: cover;
     border-width: 15%;
     border-color: purple;
@@ -52,7 +52,7 @@ header{
 }
 
 body{
-    background-image: url(/assets/asset/bg3.png);
+    background-image: url(/asset/bg3.png);
     border-width: 15%;
     border-color: purple;
     border-style: inset;
@@ -78,7 +78,7 @@ b{
 
 div.noticia{
     width: 90%;
-    background-image: url(/assets/asset/bg4.jpg);
+    background-image: url(/asset/bg4.jpg);
     height: 4%;
     border-style: solid;
     border-color: rebeccapurple;
