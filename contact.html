@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>CONTACT US</title>
+        <link rel="stylesheet" href="/css/contactcss.css">
+    </head>
+<header>
+    <center>
+        <a href="/index.html"><img src="/asset/ewvoxlogo.webp" alt="EWVox official logo"></a>
+    </center>
+    
+    <nav style="text-align: center">
+        <nav style="align-content: center">
+        <center>
+            <a href="/html/gallery.html">Gallery |</a>
+            <a href="/html/vocalists.html">Vocalists |</a>
+            <a href="/html/tou.html">Terms of Usage |</a>
+            <a href="/html/services.html">Services</a>
+        </center>
+    </nav>
+     </nav>
+    <section><br><div>
+        <br><h3><u><center>Doubts? Concerns? Let's keep in touch!~</center></u></h3>
+        <center>If you have any type of doubt, or concern, do not be afraid to speak to us!.</center>
+        
+        <h4><u>Contact Information  (* are required)</u></h4>
+    <br><form name="contactform" id="contactform" action="form.php" method="post"> 
+            <label for="email">Your email*</label>
+                <input type="email" required>
+            <br><label for="alias"><br>Alias*</label>
+                <input id="alias" placeholder="Internet alias" required>
+        </form>
+    
+            <h3>Select your message reason*:</h3>
+            
+        <label>VTuber</label>
+        <input type="radio" name="vtuber" value="vtuber" required>
+    
+    <!---El "name" tiene que coincidir en todas los "input" si se quiere poner 1 opción distinta.--> 
+    
+        <br><label>UTAU</label>
+            <input type="radio" name="vtuber" value="utau" required>
+        <br><label>Collaboration / Business</label>
+            <input type=radio name="vtuber" required>
+        <br><label>Other</label>
+            <input type="radio" name="vtuber" required>
+        </div>
+    <div>
+            <br><label for="message"><b>Your message*, 600 words max)</b></label>
+            
+        <br><textarea name="message" id="message" cols="50" rows="20" placeholder="Post your message here." required></textarea>
+        <br><center><button id="button" type="submit" value="mailto:lorissemstudios@hotmail.com">Send</button></center>
+            </div></section>
+</header>
+
+
+</html>

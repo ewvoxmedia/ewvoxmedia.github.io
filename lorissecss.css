@@ -1,0 +1,109 @@
+div.noticia img {
+    float: left;
+    margin-right: 45px;
+  }
+  
+aside.info {
+    background-image: url(/assets/asset/bg4.jpg);
+    border-color: rebeccapurple;
+    border-style: solid;
+  }
+
+  /* C S S   G E N E R A L */
+h1 {
+    color: rebeccapurple;
+    font-family: monospace;
+    font-stretch: expanded;
+    font-size: 30px;
+    font-style: normal;
+    font font-weight: lighter;
+}
+
+h2 {
+    font-family: monospace;
+}
+p {
+    font-style: normal;
+    font-family: monospace;
+    font-stretch: expanded;
+    font-size: 17px;
+}
+
+footer {
+    background-color: plum;
+    font-family: monospace;
+    font-style: oblique;
+    color: purple;
+    font-size: 15px;
+    border-spacing: inherit;
+    border-style: double;
+    border-width: medium;
+}
+
+nav {
+    background-color: plum;
+}
+header{
+    background-image: url(/assets/asset/bg2.png);
+    background-size: cover;
+    border-width: 15%;
+    border-color: purple;
+    border-style: inset;
+}
+
+body{
+    background-image: url(/assets/asset/bg3.png);
+    border-width: 15%;
+    border-color: purple;
+    border-style: inset;
+}
+
+div{
+    font-family: monospace;
+    font-size: 17px;
+}
+
+h3, h4{
+    border-width: 12px;
+    border-color: purple;
+    border-style: inset;
+}
+b{
+    font-family: monospace;
+    font-variant-caps: petite-caps;
+    font-size: 19px;
+    align-items: center;
+    display: grid;
+}
+
+div.noticia{
+    width: 90%;
+    background-image: url(/assets/asset/bg4.jpg);
+    height: 4%;
+    border-style: solid;
+    border-color: rebeccapurple;
+    border-width: 15%;
+}
+/* C S S   L I N K S */
+
+a:link {
+    color:purple;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: aqua;
+}
+
+button {
+    margin-left: 3px;
+    background-color: rebeccapurple;
+    font-family: monospace;
+    border-color: blanchedalmond;
+    color: aliceblue;
+    font-size: 25px;
+    float: 23px;
+}

@@ -1,0 +1,106 @@
+/* C S S   G E N E R A L */
+
+h1 {
+    color: rebeccapurple;
+    font-family: monospace;
+    font-stretch: expanded;
+    font-size: 30px;
+    font-style: normal;
+    font font-weight: lighter;
+}
+p {
+    font-style: normal;
+    font-family: monospace;
+    font-stretch: expanded;
+    font-size: 17px;
+}
+
+button{
+    
+    background-color: plum;
+    font-family: monospace;
+    border-style: double;
+    border-width: 10px;
+    border-color: purple;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+
+label{
+    background-color: mediumslateblue;
+    font-family: monospace;
+    font-size: 13px;
+    
+}
+
+nav{
+    background-color: plum;
+    font-family: monospace;
+    font-style: oblique;
+    color: purple;
+    font-size: 15px;
+    border-spacing: inherit;
+    border-color: dimgray;
+    border-style: double;
+    border-width: medium;
+    background-position: center;
+}
+
+header{
+    background-image: url(/assets/asset/bg2.png);
+    background-size: contain;
+}
+body {
+    background-image: url(/assets/asset/bg4.jpg);
+    background-size: cover;
+    border-color: purple;
+    border-style: inset;
+}
+
+div{
+    background-image: url(/assets/asset/bg4.jpg);
+    font-family: monospace;
+    font-size: 17px;
+}
+
+h3, h4{
+    border-width: 15%;
+    border-color: purple;
+    border-style: inset;
+}
+/* C S S   L I N K S */
+
+a:link {
+    color:purple;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: aqua;
+}
+
+/*T A B L E  C S S*/
+
+table {
+    width: 90px;
+}
+
+tr{
+    background-color: mediumpurple;
+    border-color: purple;
+    border-width: 2px;
+    border-style: dashed;
+    font-family: monospace;
+}
+
+td{
+    background-image: url(/assets/asset/bg4.jpg);
+    font-family: monospace;
+    border-color: purple;
+    border-width: 3px;
+    border-style: solid;
+}
