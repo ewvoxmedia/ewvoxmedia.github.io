@@ -1,5 +1,5 @@
 aside.info {
-    background-image: url(/asset/bg4.jpg);
+    background-image: url(/assets/asset/bg4.jpg);
     border-color: rebeccapurple;
     border-style: solid;
   }
@@ -22,6 +22,7 @@ p {
     font-family: monospace;
     font-stretch: expanded;
     font-size: 17px;
+        margin: 1.5%;
 }
 
 footer {
