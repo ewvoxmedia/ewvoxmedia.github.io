@@ -1,12 +1,4 @@
 /* C S S   G E N E R A L */
-
-* {
-    margin: 0;
-    padding: 10;
-    box-sizing: border-box;
-    font-family: monospace;
-}
-
 h1 {
     color: rebeccapurple;
     font-family: monospace;
@@ -15,7 +7,6 @@ h1 {
     font-style: normal;
     font font-weight: lighter;
 }
-
 p {
     font-style: normal;
     font-family: monospace;
@@ -41,7 +32,7 @@ label{
     
 }
 
-.nav {
+nav{
     background-color: plum;
     font-family: monospace;
     font-style: oblique;
@@ -52,21 +43,10 @@ label{
     border-style: double;
     border-width: medium;
     background-position: center;
-    animation: slide .5s ease forwards;
-    animation-delay: calc(.2s)
 }
 
-img{
-    top: 0;
-    left: 10;
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
 header{
-    background-image: url(/assets/asset/bg2.png);
+    background-image: url(/asset/bg2.png);
     background-size: cover;
     border-width: 15%;
     border-color: purple;
@@ -74,11 +54,14 @@ header{
 }
 
 body{
-    background-image: url(/assets/asset/bg3.png);
+    background-image: url(/asset/bg3.png);
+    border-width: 15%;
+    border-color: purple;
+    border-style: inset;
 }
 
 div{
-    background-image: url(/assets/asset/bg4.jpg);
+    background-image: url(/asset/bg4.jpg);
     font-family: monospace;
     font-size: 17px;
 }
@@ -92,11 +75,15 @@ b{
     font-family: monospace;
     font-variant-caps: petite-caps;
     font-size: 19px;
+    align-items: center;
+    display: grid;
 }
 section{
     font-family: monospace;
     font-variant-caps: petite-caps;
     font-size: 19px;
+    align-items: center;
+    display: grid;
     text-decoration: underline;
 }
 /* C S S   L I N K S */
